@@ -18,5 +18,3 @@ def rotate_2d_matrix(matrix):
             matrix[col - j][i] = matrix[col - i][col - j]
             matrix[col - i][col - j] = matrix[j][col - i]
             matrix[j][col - i] = temp
-
-    return matrix
